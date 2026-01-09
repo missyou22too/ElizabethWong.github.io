@@ -10,6 +10,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			html {
+				scroll-behavior: smooth;
+			}
+		</style>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -19,7 +24,7 @@
 					<div id="header" class="container">
 
 						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">✧Wong INC✧</a></h1>
+							<h1 id="logo"><a href="index.html">✧Elizabeth Wong✧</a></h1>
 
 						<!-- Nav -->
 							<nav id="nav">
@@ -42,9 +47,9 @@
 											<li><a href="#">Veroeros feugiat</a></li>
 										</ul>
 									</li>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li class="break"><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li><a href="https://regatta-playbook.com/">Regatta-Playbook</a></li>
+									<li class="break"><a href="my-cv.html">My CV</a></li>
+									<li><a href="about-me.html">About Me</a></li>
 								</ul>
 							</nav>
 
@@ -61,29 +66,47 @@
 								into actionable insights to elevate team performance for the betterment of your business.
 							</p>
 							<ul class="actions">
-								<li><a href="#" class="button">Get this party started</a></li>
+								<li><a href="#projects" class="button">Lets Dive In</a></li>
 							</ul>
 						</section>
 
 				</div>
 
 			<!-- Features 1 -->
-				<div class="wrapper">
+				<div class="wrapper" id="projects">
 					<div class="container">
 						<div class="row">
 							<section class="col-6 col-12-narrower feature">
 								<div class="image-wrapper first">
-									<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/covid_portfolio_project_mysql.sql" class="image featured first"><img src="images/pic01.jpg" alt="" /></a>
+									<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/covid_portfolio_project_mysql.sql" class="image featured first">
+										<img src="images/covid_virus.jpg" alt="" /></a>
 								</div>
 								<header>
 									<projectText>
 										<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/covid_portfolio_project_mysql.sql"> 
-											Data Exploration in SQL </a>
+											Covid Data Exploration in SQL </a>
 									</projectText>
 								</header>
 								<p>Data Exploration of Covid 19 Mortality Dataset in SQL Server</p>
 								<ul class="actions">
 									<li><a href="https://github.com/missyou22too/PortfolioProjects/blob/main/covid_portfolio_project_mysql.sql" class="button">View Project</a></li>
+								</ul>
+							</section>
+
+														<section class="col-6 col-12-narrower feature">
+								<div class="image-wrapper first">
+									<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/covid_portfolio_project_mysql.sql" class="image featured first">
+										<img src="images/houses.jpg" alt="" /></a>
+								</div>
+								<header>
+									<projectText>
+										<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/covid_portfolio_project_mysql.sql"> 
+											Housing Data Cleaning in SQL </a>
+									</projectText>
+								</header>
+								<p>Data Cleaning of a Nashville Housing Dataset in SQL</p>
+								<ul class="actions">
+									<li><a href="https://github.com/missyou22too/PortfolioProjects/blob/main/Nashville_Housing_Query.sql" class="button">View Project</a></li>
 								</ul>
 							</section>
 						</div>
@@ -95,12 +118,13 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower feature">
 								<div class="image-wrapper first">
-									<a href="https://public.tableau.com/app/profile/elizabeth.wong4902/viz/CovidDashboard_17569206185550/Dashboard1" class="image featured first"><img src="images/pic01.jpg" alt="" /></a>
+									<a href="https://public.tableau.com/app/profile/elizabeth.wong4902/viz/CovidDashboard_17569206185550/Dashboard1" class="image featured first">
+										<img src="images/covid.jpg" alt="Drawn image of scientists studying the covid 19 virus" /></a>
 								</div>
 								<header>
 									<projectText>
 										<a href="https://public.tableau.com/app/profile/elizabeth.wong4902/viz/CovidDashboard_17569206185550/Dashboard1"> 
-											Data Visualization in Tableau </a>
+											Covid Data Visualization in Tableau </a>
 									</projectText>
 								</header>
 								<p>Data Visualization of Covid Mortality Data in Tableau</p>
@@ -110,12 +134,12 @@
 							</section>
 							<section class="col-6 col-12-narrower feature">
 								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images/plane.jpg" alt="A british airways jet in flight" /></a>
 								</div>
 								<header>
 									<projectText>
 										<a href="https://public.tableau.com/app/profile/elizabeth.wong4902/viz/britishairways_17591151247780/Dashboard1"> 
-											Data Visualization in Tableau </a>
+											Airline Data Visualization in Tableau </a>
 									</projectText>
 								</header>
 								<p>Visualization of British Airways Customer Data in Tableau</p>
@@ -127,51 +151,47 @@
 					</div>
 				</div>
 
-
-			<!-- Promo -->
-				<div id="promo-wrapper">
-					<section id="promo">
-						<h2>Tableau Projects</h2>
-						<a href="#" class="button">Breach the thresholds</a>
-					</section>
-				</div>
-
-			<!-- Features 2 -->
+				<!-- Machine Learning Projects -->
 				<div class="wrapper">
-					<section class="container">
-						<header class="major">
-							<h2>Sed magna consequat lorem curabitur tempus</h2>
-							<p>Elit aliquam vulputate egestas euismod nunc semper vehicula lorem blandit</p>
-						</header>
-						<div class="row features">
-							<section class="col-4 col-12-narrower feature">
+					<div class="container">
+						<div class="row">
+							<section class="col-6 col-12-narrower feature">
 								<div class="image-wrapper first">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+									<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/used_car_price_prediction.ipynb" class="image featured first">
+										<img src="images/cars.jpg" alt="Image of cars for sale" /></a>
 								</div>
-								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-								vel sem sit dolor neque semper magna lorem ipsum.</p>
+								<header>
+									<projectText>
+										<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/used_car_price_prediction.ipynb"> 
+											Full ML Analysis of Used Car Prices</a>
+									</projectText>
+								</header>
+								<p>Building predictive models of used car sales in python</p>
+								<ul class="actions">
+									<li><a href="https://github.com/missyou22too/PortfolioProjects/blob/main/used_car_price_prediction.ipynb" class="button">View Project</a></li>
+								</ul>
 							</section>
-							<section class="col-4 col-12-narrower feature">
+							<section class="col-6 col-12-narrower feature">
 								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/dog_or_cat.ipynb" class="image featured">
+										<img src="images/kitty3.png" alt="My cat Mickey playing in a bag" /></a>
 								</div>
-								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-								vel sem sit dolor neque semper magna lorem ipsum.</p>
-							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								</div>
-								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-								vel sem sit dolor neque semper magna lorem ipsum.</p>
+								<header>
+									<projectText>
+										<a href="https://github.com/missyou22too/PortfolioProjects/blob/main/dog_or_cat.ipynb"> 
+											Image Classification with CNN </a>
+									</projectText>
+								</header>
+								<p>Building a cat or dog image classification convolutional neural network in python</p>
+								<ul class="actions">
+									<li><a href="https://github.com/missyou22too/PortfolioProjects/blob/main/dog_or_cat.ipynb" class="button">View Project</a></li>
+								</ul>
 							</section>
 						</div>
-						<ul class="actions major">
-							<li><a href="#" class="button">Elevate my awareness</a></li>
-						</ul>
-					</section>
+					</div>
 				</div>
 
+			
 			<!-- Footer -->
 				<div id="footer-wrapper">
 					<div id="footer" class="container">
